@@ -1,30 +1,26 @@
 # 自己动手实现自己的库支持cocoPods
 
-## 要支持cocoPods,需先注册trunk
+# 要支持cocoPods,需先注册trunk
 
 1. 注册trunk 命令<br />
 `pod trunk register 邮件名 [用户名]` <br/>
-<table>
-<tr>
-<td>邮件名是一个真实的邮箱地址:<td>
-<td>笔者选择用的是QQ邮箱<td>
-<td>用户名:<td>
-<td>leefenghy<td>
-<tr/>
 
-<table/>
+```objc
+邮件名是一个真实的邮箱地址:QQ,hotmial,126等等
+用户:leefenghy
+```
 2. 注册成功后返回你的实际邮箱地址进行确认<br />
 3. 可以用 `pod trunk me`查看个人信息<br />
 
 
-## 以上完成后接下来才是开始
+# 以上完成后接下来才是开始
 
 1. 在`github`上面new 一个Repository<br />
 2. 选择Public<br />
 3. ☑️`Initialize this repository with a README`<br />
 4. Add.gitignore`Objective-C`, Add.license.`MIT`<br />
 
-## 把刚才新建的`Repository `clone到你本地
+# 把刚才新建的`Repository `clone到你本地
 1. 用终端cd 到你刚才lclone到本地文件的根目录<br />
 2. 新建一个`podspec`后缀的文件,终端命令为:`pod spec create XXXXX`<br />
 3. 编辑xxxx.podspec,在终端进入编辑:`vi xxxx.podspec` 修改如下信息:可选<br />
@@ -52,7 +48,8 @@ Pod::Spec.new do |s|
 > `pod trunk push XXXX.podspec`
 > `成功可以使用:pod search命令查找你的库了`
 
-## 写在结尾
+# 写在结尾
+
 1. 过程其实很简单也不繁琐,最重要的还是要自己实现一遍
 2. 有问题可以联系我QQ578545715
 
