@@ -53,7 +53,7 @@ pod lib lint --allow-warnings
 7. 如果一切顺利会出现`MyPodDemo passed validation.` ,恭喜你<br />
 8. 如果有错误和警告会不通过,你可以对应修改相关错误,警告可以用`--allow-warnings`忽略<br />
 
-## 最后一步t`trunk`到cocoPods
+## 最后一步`trunk`到cocoPods
 > `pod trunk push XXXX.podspec`
 > `成功可以使用:pod search命令查找你的库了`
 
