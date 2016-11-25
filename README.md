@@ -4,7 +4,7 @@
 
 1. 注册trunk 命令<br />
 
->sudo gem install cocoapods
+>sudo gem install cocoapods<br />
 >pod trunk register 邮件名 [用户名]
 
 ```objc
