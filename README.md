@@ -3,8 +3,8 @@
 # 要支持cocoPods,需先注册trunk
 
 1. 注册trunk 命令<br />
-`pod trunk register 邮件名 [用户名]` <br/>
-> pod trunk register 邮件名 [用户名]
+
+>pod trunk register 邮件名 [用户名]
 
 ```objc
 邮件名是一个真实的邮箱地址:QQ,hotmial,126等等
