@@ -10,14 +10,14 @@ Pod::Spec.new do |s|
 
 
   s.name         = "MyPodDemo"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "A iOS LaunchAd show of MyPodDemo."
   s.homepage     = "https://github.com/LeeFengHY/MyPodDemo"
   s.license      = "MIT"
   s.author             = { "LeeFengHY" => "578545715@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/LeeFengHY/MyPodDemo.git", :tag => "0.0.1" }
-  s.source_files  = "MyPodDemo/*.{h,m}"
+  s.source       = { :git => "https://github.com/LeeFengHY/MyPodDemo.git", :tag => "1.0.0" }
+  s.source_files  = "LLLaunchAd/*.{h,m}"
   s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
