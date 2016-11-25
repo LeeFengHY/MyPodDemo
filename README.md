@@ -39,14 +39,16 @@ Pod::Spec.new do |s|
 4. 把你要开源的库文件放入到`clone`本地文件夹中,并和刚才修改过的xxxx.podspec一并提交到git仓库中<br />
 5. 对于多次修改先给git打上tag如下:<br />
 ```objc
->`git commit -m Release 0.0.1`
->`git tag 0.0.1`
->`git push --tags`  
->`git push origin master`
+git commit -m Release 0.0.1
+git tag 0.0.1
+git push --tags  
+git push origin master
 ```
 6. 验证podspec如下:<br />
->`pod lib lint --allow-warnings` 
->`pod lib lint XXXX.podspec --allow-warnings`
+```objc
+pod lib lint --allow-warnings 
+或者pod lib lint XXXX.podspec --allow-warnings
+```
 7. 如果一切顺利会出现`MyPodDemo passed validation.` ,恭喜你<br />
 8. 如果有错误和警告会不通过,你可以对应修改相关错误,警告可以用`--allow-warnings`忽略<br />
 
