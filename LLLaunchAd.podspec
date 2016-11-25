@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "MyPodDemo"
+  s.name         = "LLLaunchAd"
   s.version      = "1.0.0"
   s.summary      = "A iOS LaunchAd show of MyPodDemo."
   s.homepage     = "https://github.com/LeeFengHY/MyPodDemo"
