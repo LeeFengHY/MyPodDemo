@@ -178,7 +178,7 @@ static const NSTimeInterval noDataDefaultDuration = 3;
     dispatch_resume(_skipButtonTimer);
 }
 
--(void)skipButtonTitleWithDuration:(NSInteger)duration{
+-(void)skipButtonTitleWithDuration:(NSTimeInterval)duration{
     
     switch (_launchType) {
         case LaunchTypeNone:
@@ -188,7 +188,7 @@ static const NSTimeInterval noDataDefaultDuration = 3;
             break;
         case LaunchTypeTime:
             
-            [_skipButton setTitle:[NSString stringWithFormat:@"%ld S",duration] forState:UIControlStateNormal];
+            [_skipButton setTitle:[NSString stringWithFormat:@"%ld S",(long)duration] forState:UIControlStateNormal];
             
             break;
         case LaunchTypeText:
@@ -199,7 +199,7 @@ static const NSTimeInterval noDataDefaultDuration = 3;
             
         case LaunchTypeTimeText:
             
-            [_skipButton setTitle:[NSString stringWithFormat:@"%ld 跳過",duration] forState:UIControlStateNormal];
+            [_skipButton setTitle:[NSString stringWithFormat:@"%ld 跳過",(long)duration] forState:UIControlStateNormal];
             
             break;
             
