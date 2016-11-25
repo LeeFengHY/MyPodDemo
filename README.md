@@ -8,11 +8,10 @@
 <tr>
 <td>邮件名是一个真实的邮箱地址:<td>
 <td>笔者选择用的是QQ邮箱<td>
-<tr/>
-<tr>
 <td>用户名:<td>
 <td>leefenghy<td>
 <tr/>
+
 <table/>
 2. 注册成功后返回你的实际邮箱地址进行确认<br />
 3. 可以用 `pod trunk me`查看个人信息<br />
