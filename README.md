@@ -64,7 +64,7 @@ pod lib lint --allow-warnings
 > `成功可以使用:pod search命令查找你的库了`
 <br />
 如图在使用`pod search`过程中失败, 或出现这类字样:<br />
-`[!] Unable to find a pod with name, author, summary, or descriptionmatching LLLaunchAd`, <br />请参考这篇[文章](http://www.jianshu.com/p/b5e5cd053464)
+`[!] Unable to find a pod with name, author, summary, or descriptionmatching LLLaunchAd`, <br />请参考这篇[文章](http://www.jianshu.com/p/b5e5cd053464)解决
 
 ## 效果图
 <img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/podspec.png" width="320">
