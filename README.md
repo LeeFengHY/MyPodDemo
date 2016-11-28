@@ -62,7 +62,7 @@ pod lib lint --allow-warnings
 ## 最后一步`trunk`到cocoPods
 > `pod trunk push XXXX.podspec`
 > `成功可以使用:pod search命令查找你的库了`
-
+如图在使用`pod search`过程中失败, 或出现这类字样`[!] Unable to find a pod with name, author, summary, or descriptionmatching `LLLaunchAd``,请参考这篇[文章](http://www.jianshu.com/p/b5e5cd053464)
 ## 效果图
 <img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/podspec.png" width="320">
 <img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/podspec-2.png" width="320">
