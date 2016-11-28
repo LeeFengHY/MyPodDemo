@@ -29,14 +29,18 @@
 3. 编辑xxxx.podspec,在终端进入编辑:`vi xxxx.podspec` 修改如下信息:可选<br />
 ```objc
 Pod::Spec.new do |s|
-  s.name         = "MyPodDemo"
-  s.version      = "0.0.1"
+  s.name         = "LLLaunchAd"
+  s.version      = "1.0.0"
   s.summary      = "A iOS LaunchAd show of MyPodDemo."
   s.homepage     = "https://github.com/LeeFengHY/MyPodDemo"
   s.license      = "MIT"
+  s.author             = { "LeeFengHY" => "578545715@qq.com" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/LeeFengHY/MyPodDemo.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/LeeFengHY/MyPodDemo.git", :tag => "1.0.0" }
+  s.source_files  = "LLLaunchAd/*.{h,m}"
+  s.frameworks = "UIKit", "Foundation"
   s.requires_arc = true
+  s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
  end
 ```
 4. 把你要开源的库文件放入到`clone`本地文件夹中,并和刚才修改过的xxxx.podspec一并提交到git仓库中<br />
