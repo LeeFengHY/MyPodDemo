@@ -71,6 +71,8 @@ pod lib lint --allow-warnings
 <img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/podspec-2.png" width="320">
 <img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/podspec-3.png" width="320">
 
+## LLLaunchAd介绍
+可以使用 `pod 'LLLaunchAd', '~> 1.0.0'` ,开机广告`LLLaunchAd`到你的项目中, 使用介绍参考[LLLaunchAd](https://github.com/LeeFengHY/LLLaunchAd)<br />
 # 写在结尾
 * 过程其实很简单也不繁琐,最重要的还是要自己实现一遍
 * 有问题可以联系我QQ578545715
