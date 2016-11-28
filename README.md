@@ -64,6 +64,7 @@ pod lib lint --allow-warnings
 > `成功可以使用:pod search命令查找你的库了`
 
 ## 效果图
+<img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/podspec.png" width="320">
 <img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/podspec-2.png" width="320">
 <img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/podspec-3.png" width="320">
 
