@@ -63,6 +63,10 @@ pod lib lint --allow-warnings
 > `pod trunk push XXXX.podspec`
 > `成功可以使用:pod search命令查找你的库了`
 
+## 效果图
+<img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/MyPodDemo/podspec-2.png" width="320">
+<img src="https://raw.github.com/LeeFengHY/MyPodDemo/master/MyPodDemo/podspec-3.png" width="320">
+
 # 写在结尾
 * 过程其实很简单也不繁琐,最重要的还是要自己实现一遍
 * 有问题可以联系我QQ578545715
